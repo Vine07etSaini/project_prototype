@@ -1,0 +1,99 @@
+body {
+    background: #8699aa;
+}
+.url-input-box{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.url-input-box>input{
+    width: 40rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    border:1px solid black;
+}
+.url-input-box>#urlButton{
+    margin-left: 0.9rem;
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    width: 6rem;
+    font-weight: bolder;
+    height: 2rem;
+    border-radius: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+#urlButton:hover{
+   border: 2px solid black;
+}
+#controls{
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-around;
+}
+#controls>#targetLanguage{
+       height: 2rem;
+       font-size: large;
+       font-weight: bolder;
+       border-radius: 0.9rem;
+       cursor: pointer;
+}
+#controls>#translateButton{
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    width: 7rem;
+    font-weight: bolder;
+    height: 2rem;
+    border-radius: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+#controls>#speakButton{
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    width: 7rem;
+    font-weight: bolder;
+    height: 2rem;
+    border-radius: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+}
+#audioPlayer{
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    width: 15rem;
+    font-weight: bolder;
+    height: 2rem;
+    border-radius: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#container{
+    color:black;
+    font-size: 2rem;
+    word-wrap:break-word;
+    margin: 1rem auto;
+
+    padding: 1rem;
+}
+#controls>#translateButton:hover{
+    border: 2px solid black;
+}
+
+#controls>#speakButton:hover{
+    border: 2px solid black;
+ }
+
+#targetLanguage:hover{
+    border: 2px solid black;
+ }

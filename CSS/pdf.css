@@ -1,0 +1,93 @@
+body {
+  background: #8699aa;
+}
+.fileinput{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+label{
+  cursor: pointer; 
+  width:40rem;
+  font-size: 2rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  border: 2px dotted black;
+  border-radius: 5px;
+}
+/* .container {
+  text-align: center;
+  height: 50Vh;
+} */
+#languages{
+  height: 2rem;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 0.9rem;
+  cursor: pointer;
+}
+#translateButton{
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  width: 7rem;
+  font-weight: bolder;
+  height: 2rem;
+  border-radius: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+#speakButton{
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  width: 7rem;
+  font-weight: bolder;
+  height: 2rem;
+  border-radius: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+}
+#audioPlayer{
+  background-color: white;
+  border: 1px solid grey;
+  color: black;
+  width: 15rem;
+  font-weight: bolder;
+  height: 2rem;
+  border-radius: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  
+} 
+
+#navigation>button{
+  font-size: 1rem;
+  font-weight: 4em;
+}
+.pdfdiv{
+  display: flex;
+  justify-content: center;
+}
+#translateButton:hover{
+  border: 2px solid black;
+}
+
+#speakButton:hover{
+  border: 2px solid black;
+}
+
+#languages:hover{
+  border: 2px solid black;
+}
+.slider{
+  font-size: 2rem;
+}
