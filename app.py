@@ -1,14 +1,14 @@
 from flask import Flask, jsonify, request
-import nltk
 import json
+import nltk
 from flask_cors import CORS
 from newspaper import Article
+nltk.download('punkt')
 app = Flask(__name__)
 CORS(app)
 @app.route('/translation' , methods=['POST'])
 def receive_data():
    data = request.data.decode('utf-8')
-   print("Received data from JavaScript:", data)
    jsonData = json.loads(data)
    url = jsonData['data']
    article = Article(url)
@@ -20,6 +20,6 @@ def receive_data():
    return jsonify(response_data)
 
 if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')
+    app.run(host='0.0.0.0')
 
 
