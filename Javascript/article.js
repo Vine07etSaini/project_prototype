@@ -7,7 +7,7 @@ document.getElementById('urlButton').addEventListener('click', async function() 
         return;
     }
     try{
-      const response= await fetch('http://172.105.61.23:5000/translation', {
+      const response= await fetch('http://172.105.61.23:9000/translation', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
